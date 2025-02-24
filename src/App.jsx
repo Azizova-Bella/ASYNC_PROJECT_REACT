@@ -111,7 +111,7 @@ function App() {
         </select>
 
         <button onClick={() => setSortOrder(sortOrder === "asc" ? "desc" : "asc")} style={{ width: "100%", marginBottom: "10px" }}>
-          Sort by ID ({sortOrder === "asc" ? "Ascending" : "Descending"})
+          Sort by ID ({sortOrder === "asc" ? "+" : "-"})
         </button>
 
         <button onClick={openModal} style={{ width: "100%" }}>Add Task</button>
